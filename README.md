@@ -32,17 +32,7 @@ A sophisticated Telegram bot for managing foreign exchange transactions, client 
 
 ## Installation 🛠️
 
-1. **Prerequisites**
+ **Prerequisites**
    - Python 3.9+
    - PostgreSQL/SQLite
    - Telegram bot token from [@BotFather](https://t.me/BotFather)
-
-2. **Setup**
-   ```bash
-   git clone https://github.com/yourusername/forex-trading-bot.git
-   cd forex-trading-bot
-   python -m venv venv
-   source venv/bin/activate  # Linux/MacOS
-   venv\Scripts\activate  # Windows
-
-   pip install -r requirements.txt
