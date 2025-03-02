@@ -3130,7 +3130,7 @@ async def cash_flow_report_side_summary(update: Update, context: ContextTypes.DE
 def main():
     run_migrations()  # 新增此行
     setup_logging()
-    application = ApplicationBuilder().token("7706817515:AAHuQL4myZYqg6HMzejc82RDJTvkMCI8JXo").build()
+    application = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
     
     handlers = [
         CommandHandler('start', lambda u, c: u.message.reply_text(
